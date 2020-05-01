@@ -11,9 +11,9 @@ extern uint64_t citizenV8Base;
 extern uint64_t grabbedClass;
 
 enum MemoryAddresses {
-	RunFileInternalAddr = 0x1A5D0,
-	LoadSystemFileInternalAddr = 0x19E30,
-	V8Instance = 0x3C5F8,
+	RunFileInternalAddr = 0x295D0,
+	LoadSystemFileInternalAddr = 0x2B810,
+	V8Instance = 0x625F8,
 };
 
 using RunFileInternal_t = int(*)(uint64_t, char*, std::function<int(char*, uint64_t)>);

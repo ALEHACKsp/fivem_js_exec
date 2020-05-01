@@ -1,7 +1,7 @@
 #pragma once
 #include "ExecJS.h"
 
-uint64_t citizenV8Base = (uint64_t)(CustomAPI::GetModuleBySize(200744, 299999));
+uint64_t citizenV8Base = (uint64_t)(CustomAPI::GetModuleBySize(600744, 699999));
 uint64_t grabbedClass;
 
 auto RunFileInternal = (RunFileInternal_t)(citizenV8Base + MemoryAddresses::RunFileInternalAddr);
